@@ -6,5 +6,6 @@ $ pkg update && pkg upgrade
 $ pkg install git (install dahulu, jika sebelumnya belum pernah nenginstall "git")
 $ pkg install python2 ((install dahulu, jika sebelumnya belum pernah nenginstall "python2")
 $ git clone https://github.com/Dark-LinkZ/Termux_Keys.git
-$ cd Tetmux_Keys
+$ ls
+$ cd Termux_Keys
 $ python2 active.py

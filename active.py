@@ -46,7 +46,7 @@ try:
 except:
 	pass
 
-key = "extra-keys = [['ESC','TAB','UP','DOWN','HOME','BACKSPACE'],['CTRL','ALT','LEFT','RIGHT','END','DELETE'],['PGUP','PGDN','FN','/','D A R K -','- L I N K']]"
+key = "extra-keys = [['ESC','TAB','UP','DOWN','HOME','BACKSPACE'],['CTRL','ALT','LEFT','RIGHT','END','DELETE'],['PGUP','PGDN','-','_','BACKSLASH','/']]"
 c = open('/data/data/com.termux/files/home/.termux/termux.properties','w') 
 c.write(key)
 c.close()
